@@ -25,7 +25,7 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>All links <HighlightedText>At a Single Place.</HighlightedText></>}
+        heading={<>All Links Here<HighlightedText>At 1 Destination.</HighlightedText></>}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         imageSrc={galaxyImagesrc}
         imageCss={imageCss}

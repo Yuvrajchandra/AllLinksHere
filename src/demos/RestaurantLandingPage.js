@@ -97,7 +97,7 @@ export default () => {
       <TabGrid
         heading={
           <>
-            Checkout our <HighlightedText>menu.</HighlightedText>
+            Checkout our <HighlightedText>Templates.</HighlightedText>
           </>
         }
       />

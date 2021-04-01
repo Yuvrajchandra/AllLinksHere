@@ -63,7 +63,7 @@ export default ({
         title: "VegMixer",
         content: "Tomato Salad & Carrot",
         price: "$5.99",
-        url: "#"
+        url: "https://alllinkshere.github.io/Galaxy/"
       },
       {
         imageSrc: galaxyImagesrc,
@@ -72,7 +72,7 @@ export default ({
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
-        url: "#"
+        url: "https://alllinkshere.github.io/Galaxy/"
       },
       {
         imageSrc: galaxyImagesrc,
@@ -81,7 +81,7 @@ export default ({
         price: "$7.99",
         rating: "4.9",
         reviews: "89",
-        url: "#"
+        url: "https://alllinkshere.github.io/Galaxy/"
       },
       {
         imageSrc: galaxyImagesrc,

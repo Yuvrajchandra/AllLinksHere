@@ -14,6 +14,7 @@ import Footer from "components/footers/FiveColumnWithInputForm.js";
 import chefIconImageSrc from "images/chef-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
 import shopIconImageSrc from "images/shop-icon.svg";
+import galaxyImagesrc from "images/galaxy.png"
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -26,7 +27,7 @@ export default () => {
       <Hero
         heading={<>All links <HighlightedText>At a Single Place.</HighlightedText></>}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        imageSrc="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        imageSrc={galaxyImagesrc}
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Order Now"

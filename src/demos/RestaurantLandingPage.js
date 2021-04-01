@@ -10,6 +10,7 @@ import TabGrid from "components/cards/TabCardGrid.js";
 import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
 import DownloadApp from "components/cta/DownloadApp.js";
 import FAQ from "components/faqs/SingleCol.js";
+import ContactUsForm from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
 import Footer from "components/footers/FiveColumnWithInputForm.js";
 
 
@@ -140,6 +141,7 @@ export default () => {
       <DownloadApp
         text={<>People around you are ordering delicious meals using the <HighlightedTextInverse>Treact App.</HighlightedTextInverse></>}
       />
+  <ContactUsForm />
       <FAQ />
       <Footer />
     </AnimationRevealPage>

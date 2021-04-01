@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Competitor Websites
+- https://linktr.ee/
+- https://www.contactinbio.com/
+- https://www.swipop.co/
+- https://linkinprofile.com/
+- https://dash.shorby.com/smartpage?&lp
+- https://tap.bio/@tap.bio/cards/25014
+- https://bio.fm/linktree
+- https://manylink.co/
+- https://lnk.bio/
+- https://www.lynxinbio.com/
+- https://linkkle.com/
+- https://about.me/
+
 ## Available Scripts
 
 In the project directory, you can run:

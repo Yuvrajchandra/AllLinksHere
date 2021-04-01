@@ -33,6 +33,8 @@ export default () => {
         primaryButtonText="Get Started for free"
         watchVideoButtonText="See how it works"
       />
+
+
       <MainFeature
         subheading={<Subheading>Established Since 2014</Subheading>}
         heading={
@@ -60,6 +62,37 @@ export default () => {
         imageDecoratorBlob={true}
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
       />
+
+      <Features
+        heading={
+          <>
+            Amazing <HighlightedText>Service.</HighlightedText>
+          </>
+        }
+        cards={[
+          {
+            imageSrc: shopIconImageSrc,
+            title: "Choose a Template",
+            description: "Select your favourite theme for link in bio",
+            url: "https://google.com"
+          },
+          {
+            imageSrc: chefIconImageSrc,
+            title: "Send Us Details",
+            description: "Fill in the form with link to different platforms",
+            url: "https://timerse.com"
+          },
+          {
+            imageSrc: celebrationIconImageSrc,
+            title: "Hurrah! Have your own link",
+            description: "Receive your customised linkinbio page and grow your business",
+            url: "https://reddit.com"
+          }
+        ]}
+
+        imageContainerCss={tw`p-2!`}
+        imageCss={tw`w-20! h-20!`}
+      />
       {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}
       <TabGrid
         heading={
@@ -68,36 +101,7 @@ export default () => {
           </>
         }
       />
-      <Features
-        heading={
-          <>
-            Amazing <HighlightedText>Services.</HighlightedText>
-          </>
-        }
-        cards={[
-          {
-            imageSrc: shopIconImageSrc,
-            title: "230+ Locations",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://google.com"
-          },
-          {
-            imageSrc: chefIconImageSrc,
-            title: "Professional Chefs",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://timerse.com"
-          },
-          {
-            imageSrc: celebrationIconImageSrc,
-            title: "Birthday Catering",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://reddit.com"
-          }
-        ]}
 
-        imageContainerCss={tw`p-2!`}
-        imageCss={tw`w-20! h-20!`}
-      />
       <MainFeature2
         subheading={<Subheading>A Reputed Brand</Subheading>}
         heading={<>Why <HighlightedText>Choose Us ?</HighlightedText></>}

@@ -25,13 +25,13 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>All Links Here<HighlightedText>At 1 Destination.</HighlightedText></>}
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        heading={<>All Links <HighlightedText>1 Destination.</HighlightedText></>}
+        description="Connect all your favourite platforms with a single destination."
         imageSrc={galaxyImagesrc}
         imageCss={imageCss}
         imageDecoratorBlob={true}
-        primaryButtonText="Order Now"
-        watchVideoButtonText="Meet The Chefs"
+        primaryButtonText="Get Started for free"
+        watchVideoButtonText="See how it works"
       />
       <MainFeature
         subheading={<Subheading>Established Since 2014</Subheading>}
